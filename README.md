@@ -8,7 +8,7 @@ I'm currently **CTO at Agro en Punta** and **co-founder and founding engineer at
 
 ## What I'm building
 
-### Agro en Punta — CTO
+### Agro en Punta - CTO
 
 Agro en Punta is an agribusiness events and media company. Its flagship event brought together **11,000+ business attendees and 200+ exhibitors in its 2026 edition**.
 
@@ -16,7 +16,7 @@ I lead technology for a 20-person organization, covering architecture, infrastru
 
 *Platform technologies: TypeScript, Next.js, SQL, Swift, Kotlin, Docker.*
 
-### Cameltrace — Co-founder & Founding Engineer
+### Cameltrace - Co-founder & Founding Engineer
 
 Cameltrace is a **B2B event-management SaaS**, built to support CRM workflows, commercial processes, and coordination across teams.
 
