@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Franco Bascialla — CTO  ·  FOUNDING ENGINEER  ·  PRODUCT ENGINEER">
+  <title>Franco Bascialla</title>
+  
+  <defs>
+    <pattern id="h-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="h-fade" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="h-mask"><rect width="1200" height="320" fill="url(#h-fade)"/></mask>
+    <linearGradient id="h-text" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fafafa"/>
+      <stop offset="100%" stop-color="#8a8a93"/>
+    </linearGradient>
+    <linearGradient id="h-beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#22d3ee"/>
+      <stop offset="65%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="h-meteor" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.9"/>
+    </linearGradient>
+    
+    <radialGradient id="h-spot" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#22d3ee" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="h-blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <clipPath id="h-clip"><rect width="1200" height="320" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#h-clip)">
+    <rect width="1200" height="320" fill="#050507"/>
+    <rect width="1200" height="320" fill="url(#h-grid)" mask="url(#h-mask)"/>
+
+    <!-- spotlight that slowly breathes -->
+    <ellipse cx="600" cy="134.4" rx="432" ry="176" fill="url(#h-spot)">
+      <animate attributeName="rx" values="396;480;396" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.75;1;0.75" dur="8s" repeatCount="indefinite"/>
+    </ellipse>
+
+    
+    <g transform="translate(0 98) rotate(145)" opacity="0">
+      <rect width="83" height="1.2" rx="1" fill="url(#h-meteor)" transform="translate(-83 0)"/>
+      <circle r="1.6" fill="#fff"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" from="0 0" to="720 0" dur="3.8s" begin="4.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.7;1" dur="3.8s" begin="4.4s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(703 22) rotate(145)" opacity="0">
+      <rect width="120" height="1.2" rx="1" fill="url(#h-meteor)" transform="translate(-120 0)"/>
+      <circle r="1.6" fill="#fff"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" from="0 0" to="720 0" dur="6.0s" begin="3.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.7;1" dur="6.0s" begin="3.3s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(904 61) rotate(145)" opacity="0">
+      <rect width="125" height="1.2" rx="1" fill="url(#h-meteor)" transform="translate(-125 0)"/>
+      <circle r="1.6" fill="#fff"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" from="0 0" to="720 0" dur="4.0s" begin="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.7;1" dur="4.0s" begin="2.2s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(934 69) rotate(145)" opacity="0">
+      <rect width="64" height="1.2" rx="1" fill="url(#h-meteor)" transform="translate(-64 0)"/>
+      <circle r="1.6" fill="#fff"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" from="0 0" to="720 0" dur="5.7s" begin="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.7;1" dur="5.7s" begin="2.8s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(1218 83) rotate(145)" opacity="0">
+      <rect width="70" height="1.2" rx="1" fill="url(#h-meteor)" transform="translate(-70 0)"/>
+      <circle r="1.6" fill="#fff"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" from="0 0" to="720 0" dur="5.1s" begin="5.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.7;1" dur="5.1s" begin="5.5s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(909 62) rotate(145)" opacity="0">
+      <rect width="106" height="1.2" rx="1" fill="url(#h-meteor)" transform="translate(-106 0)"/>
+      <circle r="1.6" fill="#fff"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" from="0 0" to="720 0" dur="6.6s" begin="5.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.7;1" dur="6.6s" begin="5.5s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(491 23) rotate(145)" opacity="0">
+      <rect width="127" height="1.2" rx="1" fill="url(#h-meteor)" transform="translate(-127 0)"/>
+      <circle r="1.6" fill="#fff"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" from="0 0" to="720 0" dur="4.3s" begin="0.9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.7;1" dur="4.3s" begin="0.9s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(393 35) rotate(145)" opacity="0">
+      <rect width="84" height="1.2" rx="1" fill="url(#h-meteor)" transform="translate(-84 0)"/>
+      <circle r="1.6" fill="#fff"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" from="0 0" to="720 0" dur="6.7s" begin="3.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.7;1" dur="6.7s" begin="3.3s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(963 92) rotate(145)" opacity="0">
+      <rect width="65" height="1.2" rx="1" fill="url(#h-meteor)" transform="translate(-65 0)"/>
+      <circle r="1.6" fill="#fff"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum" from="0 0" to="720 0" dur="4.1s" begin="3.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.7;1" dur="4.1s" begin="3.4s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- name -->
+    <text x="50%" y="160" text-anchor="middle" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="-2" fill="url(#h-text)">Franco Bascialla</text>
+
+    <!-- glowing underline (Aceternity "sparkles" divider) -->
+    <rect x="370" y="192" width="460" height="2" fill="url(#h-beam)" filter="url(#h-blur)"/>
+    <rect x="370" y="192" width="460" height="1" fill="url(#h-beam)"/>
+    <rect x="510" y="191" width="180" height="4" fill="#22d3ee" opacity="0.6" filter="url(#h-blur)">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- tagline -->
+    <text x="50%" y="233.6" text-anchor="middle" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="4" fill="#a1a1aa">CTO  ·  FOUNDING ENGINEER  ·  PRODUCT ENGINEER</text>
+
+    <!-- travelling border beams -->
+    
+    <rect x="-360" y="0.25" width="360" height="1.5" fill="url(#h-beam)">
+      <animate attributeName="x" from="-360" to="1200" dur="6s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    
+    <rect x="-360" y="318.25" width="360" height="1.5" fill="url(#h-beam)">
+      <animate attributeName="x" from="-360" to="1200" dur="6s" begin="3s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+</svg>
